@@ -12,6 +12,17 @@
 ; For RN Apps installed via npm, "Libraries" folder is inside
 ; "node_modules/react-native" but in the source repo it is in the root
 .*/Libraries/react-native/React.js
+.*/Libraries/react-native/ReactNative.js
+
+.*/node_modules/native-base/.*
+.*/node_modules/react-native-experimental-navigation/.*
+.*/node_modules/react-native-keyboard-aware-scroll-view/.*
+.*/node_modules/eslint-plugin-jsx-a11y/.*
+.*/node_modules/react-native-easy-grid/.*
+.*/node_modules/react-static-container/.*
+.*/node_modules/react-navigation/.*
+.*/node_modules/mitt/.*
+
 
 ; Ignore polyfills
 .*/Libraries/polyfills/.*
