@@ -11,11 +11,10 @@ import ExamplesRegistry from '../Services/ExamplesRegistry'
 // Ignore in coverage report
 /* istanbul ignore next */
 ExamplesRegistry.addComponentExample('Full Button', () =>
-  <FullButton
+  (<FullButton
     text='Hey there'
     onPress={() => window.alert('Full Button Pressed!')}
-  />
-)
+  />))
 
 export default class FullButton extends Component {
   static propTypes = {

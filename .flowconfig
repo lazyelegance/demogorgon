@@ -15,13 +15,16 @@
 .*/Libraries/react-native/ReactNative.js
 
 .*/node_modules/native-base/.*
+.*/node_modules/react-native/.*
 .*/node_modules/react-native-experimental-navigation/.*
 .*/node_modules/react-native-keyboard-aware-scroll-view/.*
 .*/node_modules/eslint-plugin-jsx-a11y/.*
 .*/node_modules/react-native-easy-grid/.*
 .*/node_modules/react-static-container/.*
 .*/node_modules/react-navigation/.*
+.*/node_modules/react-native-tab-view/.*
 .*/node_modules/mitt/.*
+.*/node_modules/.*
 
 
 ; Ignore polyfills
@@ -56,4 +59,4 @@ suppress_comment=\\(.\\|\n\\)*\\$FlowExpectedError
 unsafe.enable_getters_and_setters=true
 
 [version]
-^0.53.0
+^0.42.0
