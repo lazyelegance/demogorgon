@@ -1,0 +1,31 @@
+{
+  "extends": ["airbnb", "standard", "standard-react"],
+  "rules": {
+    "global-require": 0,
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+    "react/no-unused-prop-types": 0,
+    "react/sort-comp": 0,
+    "max-len": ["error", 160],
+    "react/prefer-stateless-function": [0, { "ignorePureComponents": true }]
+  },
+  "parser": "babel-eslint",
+  "globals": {
+    "it": false,
+    "expect": false,
+    "describe": false,
+    "beforeEach": false,
+    "jest": false,
+    "fetch": false,
+    "navigator": false,
+    "__DEV__": false,
+    "XMLHttpRequest": false,
+    "FormData": false,
+    "React$Element": false,
+    "Generator": false
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    }
+  }
+}
